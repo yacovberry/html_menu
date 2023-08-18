@@ -1,0 +1,154 @@
+nav{
+    font-size: medium;
+    width: auto;
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
+    height: 40px;
+    background-color: rgba(64, 59, 59, 0.83);   
+    height: 40px;
+    display: block;
+}
+
+nav li{
+    list-style-type: none;
+    float: right;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+ul.list-item  {
+    float: right;
+    border-radius: 5px;
+}
+
+ul.list-item li  :hover{
+    background-color: rgba(10, 13, 216, 0.9); 
+    border-radius: 10%;
+}
+
+ul.list-item li {
+    float: right;
+    margin-right: 10px;
+}
+
+a.list-item
+{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+ul.list-item li a{
+    text-decoration: none;
+    color: white;
+    fill: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+ul.search{
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+
+.search button  
+{
+    background-color: rgb(140, 231, 4);
+    border-radius: 5%;
+    border: solid black 1px;
+}
+
+.search input
+{
+    border-radius: 0;
+    border: solid black 1px;
+    width: 100px;
+}
+
+
+.logo
+{
+    display: non;
+    float: right;
+    padding-left: 0;
+    padding-top: 15px;
+    padding-right: 7px;
+    margin: 0;
+}
+
+.icon
+{
+
+    float: right;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: none;  
+}
+
+nav img
+{
+    width: 15px;
+    height: 20px;
+}
+
+
+@media only screen and (max-width: 1200px ) {
+    body {
+      background-color: rgb(224, 18, 18);
+    }
+
+    a 
+    {
+        font-size: 13px;
+    }
+
+  }
+
+  /* tablate */
+
+@media only screen and (max-width: 720px ) {
+    body {
+        background-color: rgb(237, 110, 20);
+    }
+
+    .icon
+    {
+        display: block;  
+    }
+
+    .toggle
+    {
+        margin-left: 5px;
+    }
+
+    ul.list-item
+    {
+        display: none;
+        
+    }
+    nav img 
+    {
+        display: none;
+    }
+  }
+
+  /* smartphone */
+
+@media only screen and (max-width: 320px ) {
+    body {
+      background-color: rgb(62, 227, 16);
+    }
+  }
